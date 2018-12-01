@@ -1,0 +1,65 @@
+<!Doctype html>
+
+<html>
+
+	<head>
+		<meta charset = "UTF-8">
+		<title>HireMe</title>
+		<link href="hireMe.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<div class = "grid">
+
+			<div class = "header">
+				<span id="page-title">HireMe</span>
+			</div>
+
+			<div class = "sidebar">
+				<a href = "Home" class = "sb" id = "home">
+					<img src="home.png" class = "icon" id = "home-icon" alt = "Home Icon"/>Home</a> 
+			</br>
+				<a href = "Add User" class = "sb">
+					<img src="addUser.png" class = "icon" id = "add-user" alt = "Add User Icon"/>Add User</a>
+			</br>
+				<a href = "New Job" class = "sb">
+				<img src="newJob.png" class = "icon" id = "home-icon" alt = "Home Icon"/>New Job</a>
+
+			</br>
+				<a href = "Logout" class = "sb">
+					<img src="logout.jpg" class = "icon" id = "logout" alt = "Login/Logout  Icon"/>Logout</a>
+		</div>
+
+		<div class = "dashboard">
+			
+			<form class="inputs">
+			
+			<p>Firstname</p>
+			<input size="35px" type="text" name="FirstName">
+			<br />
+
+			<p>Lastname</p>
+			<input size="35px" type="text" name="LastName">
+			<br />
+			
+			<p>Password</p>
+			<input size="35px" type="text" name="Password">
+			<br />
+
+			<p>Email</p>
+			<input placeholder="e.g. mary.jane@example.com" size="35px" type="text" name="Email">
+			<br />
+
+			<p>Telephone</p>
+			<input placeholder="e.g. 876-999-8989" size="35px" type="text" name="Telephone">
+			</select>
+			<br/>
+
+			<br/>
+			<input class="button" type="button" value="Submit" name="Submit" onclick="formValidator()">
+			</form>
+
+		</div>
+	</body>
+
+</html>

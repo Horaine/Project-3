@@ -1,0 +1,58 @@
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 250px 550px 1fr;
+	/*grid-template-rows: 1fr 1fr 1fr;*/
+	grid-template-areas:
+	". header header ."
+	". sidebar menu ."
+	". sidebar menu .";
+}
+
+.header {
+
+	grid-area: header;
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;	
+	background-color: black;
+	max-height: 50px;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	background-color: grey;
+}	
+
+.dashboard {
+	grid-area: menu;
+	background-color: #D3D3D3;
+}
+
+.sb {
+	margin-left: 15px;
+
+}
+
+.icon {
+	margin-right: 5px;
+	height: 25px;
+	width: 25px;
+}
+
+#page-title {
+	color: white;
+	margin: 10px;
+}
+
+#home {
+	margin-top: 15px;
+}
+
+.button{
+	background-color: #00FFFF;
+	box-sizing: 25px;
+}
+
+.inputs{
+	margin: 15px;
+}
